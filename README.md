@@ -10,6 +10,18 @@ then navigate to: http://localhost:3333
 
 🚨 Keep in mind that using incorrect `.env` variables may push changes to production. 🚨
 
+
+# Admin panel
+
+https://europratsya.sanity.studio/desk
+
+## Make code prettier?
+
+```
+prettier --write schema/*.jsx
+```
+
+## Read more
 Now you can do the following things:
 
 - [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
