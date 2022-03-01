@@ -12,6 +12,7 @@ import author from './author';
 import country from './country';
 import company from './company';
 import jobCategory from './jobCategory';
+import jobPost from './jobPost';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
