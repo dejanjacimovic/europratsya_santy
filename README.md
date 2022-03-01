@@ -3,13 +3,14 @@
 Main repo is **Gatsby project** can be found here: https://github.com/dejanjacimovic/europratsya
 
 To run your Sanity backend, execute the following command:
+
 ```
 sanity start
 ```
+
 then navigate to: http://localhost:3333
 
 🚨 Keep in mind that using incorrect `.env` variables may push changes to production. 🚨
-
 
 # Admin panel
 
@@ -21,7 +22,14 @@ https://europratsya.sanity.studio/desk
 prettier --write schema/*.jsx
 ```
 
+Install precommit:
+
+```
+pre-commit install
+```
+
 ## Read more
+
 Now you can do the following things:
 
 - [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
