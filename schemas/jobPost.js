@@ -36,6 +36,12 @@ export default {
       of: [{ type: 'reference', to: { type: 'job_category' } }],
     },
     {
+      name: 'job_languages',
+      title: 'One required language',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'language' } }],
+    },
+    {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
