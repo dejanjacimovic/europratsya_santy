@@ -32,10 +32,20 @@ export default {
       to: { type: 'company' },
     },
     {
+      name: 'city',
+      title: 'City',
+      type: 'string',
+    },
+    {
       name: 'country',
       title: 'Country',
       type: 'reference',
       to: { type: 'country' },
+    },
+    {
+      name: 'salary',
+      title: 'Yearly net salary',
+      type: 'string',
     },
     {
       name: 'job_categories',
