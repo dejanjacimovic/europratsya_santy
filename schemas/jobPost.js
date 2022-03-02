@@ -6,16 +6,24 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      type: 'string',
+      type: 'object',
+      fields: [
+        {
+          title: 'English Title',
+          name: 'en',
+          type: 'string',
+        },
+        {
+          title: 'Ukrainian Title',
+          name: 'uk',
+          type: 'string',
+        },
+      ],
     },
     {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
-      options: {
-        source: 'title',
-        maxLength: 96,
-      },
     },
     {
       name: 'employer',
