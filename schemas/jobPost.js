@@ -54,7 +54,19 @@ export default {
     {
       name: 'description',
       title: 'Description',
-      type: 'blockContent',
+      type: 'object',
+      fields: [
+        {
+          title: 'English',
+          name: 'en',
+          type: 'blockContent',
+        },
+        {
+          title: 'Ukrainian',
+          name: 'uk',
+          type: 'blockContent',
+        },
+      ],
     },
   ],
 };
