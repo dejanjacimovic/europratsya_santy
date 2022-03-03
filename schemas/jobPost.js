@@ -44,7 +44,7 @@ export default {
     },
     {
       name: 'salary',
-      title: 'Yearly net salary',
+      title: 'Salary',
       type: 'string',
     },
     {
