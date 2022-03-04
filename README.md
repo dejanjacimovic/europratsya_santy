@@ -5,6 +5,7 @@ Main repo is **Gatsby project** can be found here: https://github.com/dejanjacim
 To run your Sanity backend, execute the following command:
 
 ```
+npm install -g @sanity/cli
 sanity start
 ```
 
