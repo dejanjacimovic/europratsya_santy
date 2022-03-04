@@ -6,19 +6,7 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      type: 'object',
-      fields: [
-        {
-          title: 'English Title',
-          name: 'en',
-          type: 'string',
-        },
-        {
-          title: 'Ukrainian Title',
-          name: 'uk',
-          type: 'string',
-        },
-      ],
+      type: 'multilingualTitle',
     },
     {
       name: 'slug',
@@ -34,19 +22,7 @@ export default {
     {
       name: 'description',
       title: 'Description',
-      type: 'object',
-      fields: [
-        {
-          title: 'English',
-          name: 'en',
-          type: 'blockContent',
-        },
-        {
-          title: 'Ukrainian',
-          name: 'uk',
-          type: 'blockContent',
-        },
-      ],
+      type: 'multilingualDescription',
     },
   ],
   preview: {
