@@ -14,10 +14,16 @@ export default {
       type: 'slug',
     },
     {
-      name: 'country',
-      title: 'Country',
+      name: 'job_categories',
+      title: 'Job Categories',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'job_category' } }],
+    },
+    {
+      name: 'countries',
+      title: 'Countries',
       type: 'reference',
-      to: { type: 'country' },
+      of: [{ type: 'reference', to: { type: 'country' } }],
     },
     {
       name: 'description',
