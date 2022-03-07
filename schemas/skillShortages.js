@@ -22,7 +22,7 @@ export default {
     {
       name: 'countries',
       title: 'Countries',
-      type: 'reference',
+      type: 'array',
       of: [{ type: 'reference', to: { type: 'country' } }],
     },
     {
