@@ -17,6 +17,7 @@ import jobCategory from './jobCategory';
 import jobPost from './jobPost';
 import language from './language';
 import visaRequirement from './visaRequirement';
+import skillShortages from './skillShortages';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -36,6 +37,7 @@ export default createSchema({
     jobPost,
     language,
     visaRequirement,
+    skillShortages,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
