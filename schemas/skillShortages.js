@@ -1,6 +1,6 @@
 export default {
   name: 'skill_shortages',
-  title: 'Skill shortages',
+  title: 'Skills Shortages',
   type: 'document',
   fields: [
     {
