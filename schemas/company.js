@@ -18,6 +18,16 @@ export default {
       },
     },
     {
+      name: 'website',
+      title: 'Website',
+      type: 'string',
+    },
+    {
+      name: 'application_email',
+      title: 'Application email address',
+      type: 'string',
+    },
+    {
       name: 'image',
       title: 'Image',
       type: 'image',
@@ -32,17 +42,9 @@ export default {
       to: { type: 'country' },
     },
     {
-      name: 'about',
-      title: 'About',
-      type: 'array',
-      of: [
-        {
-          title: 'Block',
-          type: 'block',
-          styles: [{ title: 'Normal', value: 'normal' }],
-          lists: [],
-        },
-      ],
+      name: 'description',
+      title: 'Description',
+      type: 'multilingualDescription',
     },
   ],
   preview: {
