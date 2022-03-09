@@ -6,6 +6,7 @@ To run your Sanity backend, execute the following command:
 
 ```
 npm install -g @sanity/cli
+sanity login
 sanity start
 ```
 
