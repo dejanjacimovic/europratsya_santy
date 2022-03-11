@@ -32,5 +32,10 @@ export default {
       title: 'Description',
       type: 'text',
     },
+    {
+      name: 'seo',
+      title: 'SEO Tags',
+      type: 'seo',
+    },
   ],
 };
