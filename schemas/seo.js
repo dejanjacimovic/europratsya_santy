@@ -26,7 +26,7 @@ export default {
     {
       title: 'Ukrainian Description',
       name: 'description_uk',
-      type: 'string;',
+      type: 'string',
     },
     {
       title: 'German Description',
