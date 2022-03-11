@@ -15,7 +15,7 @@ export default {
       options: {
         source: 'title.en',
         maxLength: 96,
-      }
+      },
     },
     {
       name: 'employer',
@@ -33,6 +33,11 @@ export default {
       title: 'Country',
       type: 'reference',
       to: { type: 'country' },
+    },
+    {
+      name: 'contact',
+      title: 'Contact (email)',
+      type: 'string',
     },
     {
       name: 'salary',
