@@ -71,6 +71,11 @@ export default {
       title: 'Description',
       type: 'multilingualDescription',
     },
+    {
+      name: 'seo',
+      title: 'SEO Tags',
+      type: 'seo',
+    },
   ],
   preview: {
     select: {
