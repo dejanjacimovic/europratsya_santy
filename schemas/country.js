@@ -6,7 +6,7 @@ export default {
     {
       name: 'title',
       title: 'Title',
-      type: 'string',
+      type: 'multilingualTitle',
     },
     {
       name: 'slug',
@@ -38,4 +38,9 @@ export default {
       type: 'seo',
     },
   ],
+  preview: {
+    select: {
+      title: 'title.en',
+    },
+  },
 };
