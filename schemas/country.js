@@ -16,6 +16,7 @@ export default {
         source: 'title',
         maxLength: 96,
       },
+      validation: Rule => Rule.min(3).error('A slug of min. 3 characters is required'),
     },
     {
       name: 'abbreviation',
