@@ -44,4 +44,13 @@ export default {
       title: 'title.en',
     },
   },
+  orderings: [
+    {
+      title: 'Country Name',
+      name: 'englishTitleAsc',
+      by: [
+        {field: 'title.en', direction: 'asc'}
+      ]
+    }
+  ],
 };
