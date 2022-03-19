@@ -82,4 +82,27 @@ export default {
       title: 'title.en',
     },
   },
+  orderings: [
+    {
+      title: 'Newest',
+      name: 'createdAtDesc',
+      by: [
+        {field: 'createdAt', direction: 'desc'}
+      ]
+    },
+    {
+      title: 'Oldest',
+      name: 'creatdAtAsc',
+      by: [
+        {field: 'createdAt', direction: 'asc'}
+      ]
+    },
+    {
+      title: 'Title',
+      name: 'englishTitle',
+      by: [
+        {field: 'title.en', direction: 'asc'}
+      ]
+    }
+  ],
 };
