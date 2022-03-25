@@ -16,7 +16,12 @@ export default {
         source: 'title',
         maxLength: 96,
       },
-      validation: Rule => Rule.min(3).error('A slug of min. 3 characters is required'),
+      validation: (Rule) =>
+        Rule.custom((field, context) =>
+          context.document.flag && field === undefined
+            ? 'This field must not be empty.'
+            : true
+        ),
     },
     {
       name: 'abbreviation',
