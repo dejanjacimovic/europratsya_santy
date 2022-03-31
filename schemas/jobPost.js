@@ -36,7 +36,7 @@ export default {
     },
     {
       name: 'contact',
-      title: 'Contact (email)',
+      title: 'Contact (email or URL)',
       type: 'string',
     },
     {
