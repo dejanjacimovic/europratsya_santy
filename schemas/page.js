@@ -34,7 +34,12 @@ export default {
       name: 'footnote',
       title: 'Image footnote',
       type: 'string',
-    }
+    },
+    {
+      name: 'seo',
+      title: 'SEO Tags',
+      type: 'seo',
+    },
   ],
 
   preview: {
