@@ -4,17 +4,17 @@ export default {
   type: 'object',
   fields: [
     {
-      title: 'English Description',
+      title: 'English',
       name: 'en',
       type: 'blockContent',
     },
     {
-      title: 'Ukrainian Description',
+      title: 'Ukrainian',
       name: 'uk',
       type: 'blockContent',
     },
     {
-      title: 'German Description',
+      title: 'German',
       name: 'de',
       type: 'blockContent',
     },
