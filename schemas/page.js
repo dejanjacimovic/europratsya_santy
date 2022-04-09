@@ -33,7 +33,7 @@ export default {
     {
       name: 'footnote',
       title: 'Image footnote',
-      type: 'string',
+      type: 'multilingualTitle',
     },
     {
       name: 'seo',
