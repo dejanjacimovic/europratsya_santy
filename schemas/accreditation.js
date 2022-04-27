@@ -9,11 +9,6 @@ export default {
       type: 'multilingualTitle',
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-    },
-    {
       name: 'countries',
       title: 'Countries',
       type: 'array',

@@ -9,11 +9,6 @@ export default {
       type: 'multilingualTitle',
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-    },
-    {
       name: 'job_categories',
       title: 'Job Categories',
       type: 'array',
