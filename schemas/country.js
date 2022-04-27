@@ -36,7 +36,7 @@ export default {
     {
       name: 'description',
       title: 'Description',
-      type: 'text',
+      type: 'multilingualDescription',
     },
     {
       name: 'seo',
