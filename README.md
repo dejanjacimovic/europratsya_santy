@@ -30,6 +30,12 @@ Install precommit:
 pre-commit install
 ```
 
+## Delete unused assets
+
+```
+sanity exec deleteUnusedAssets.js --with-user-token
+```
+
 ## Read more
 
 Now you can do the following things:

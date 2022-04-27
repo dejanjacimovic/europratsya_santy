@@ -9,9 +9,6 @@ import blockContent from './blockContent';
 import multilingualTitle from './multilingualTitle';
 import multilingualDescription from './multilingualDescription';
 import seo from './seo';
-import category from './category';
-import post from './post';
-import author from './author';
 import country from './country';
 import company from './company';
 import jobCategory from './jobCategory';
@@ -31,9 +28,6 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
-    post,
-    author,
-    category,
     country,
     company,
     jobCategory,
