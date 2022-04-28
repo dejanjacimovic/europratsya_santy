@@ -39,6 +39,24 @@ export default {
       type: 'multilingualDescription',
     },
     {
+      name: 'skill_shortages',
+      title: 'Skills Shortages',
+      type: 'reference',
+      to: { type: 'skill_shortages' },
+    },
+    {
+      name: 'visa_requirement',
+      title: 'Visa Requirements',
+      type: 'reference',
+      to: { type: 'visa_requirement' },
+    },
+    {
+      name: 'accreditation',
+      title: 'Accreditation',
+      type: 'reference',
+      to: { type: 'accreditation' },
+    },
+    {
       name: 'seo',
       title: 'SEO Tags',
       type: 'seo',
