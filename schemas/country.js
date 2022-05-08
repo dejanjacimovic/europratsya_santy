@@ -34,6 +34,24 @@ export default {
       type: 'string',
     },
     {
+      name: 'skills',
+      title: 'Skills shortages page',
+      type: 'reference',
+      to: { type: 'skill_shortages' },
+    },
+    {
+      name: 'visa',
+      title: 'Visa requirements page',
+      type: 'reference',
+      to: { type: 'visa_requirement' },
+    },
+    {
+      name: 'accreditation',
+      title: 'Accreditation page',
+      type: 'reference',
+      to: { type: 'accreditation' },
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'multilingualDescription',
