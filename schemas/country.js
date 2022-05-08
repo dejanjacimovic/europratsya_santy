@@ -46,7 +46,7 @@ export default {
       to: { type: 'visa_requirement' },
     },
     {
-      name: 'accreditation',
+      name: 'accreditations',
       title: 'Accreditation page',
       type: 'reference',
       to: { type: 'accreditation' },
