@@ -28,6 +28,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'url_of_employer',
+      title: 'Contact this employer before Vacancies from this employer (URL)',
+      type: 'string',
+    },
+    {
       name: 'image',
       title: 'Image',
       type: 'image',
