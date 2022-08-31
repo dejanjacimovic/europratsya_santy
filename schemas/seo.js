@@ -14,11 +14,6 @@ export default {
       type: 'string',
     },
     {
-      title: 'German Title',
-      name: 'title_de',
-      type: 'string',
-    },
-    {
       title: 'English Description',
       name: 'description_en',
       type: 'string',
@@ -26,11 +21,6 @@ export default {
     {
       title: 'Ukrainian Description',
       name: 'description_uk',
-      type: 'string',
-    },
-    {
-      title: 'German Description',
-      name: 'description_de',
       type: 'string',
     },
     {

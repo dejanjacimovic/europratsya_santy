@@ -13,10 +13,5 @@ export default {
       name: 'uk',
       type: 'string',
     },
-    {
-      title: 'German',
-      name: 'de',
-      type: 'string',
-    },
   ],
 };

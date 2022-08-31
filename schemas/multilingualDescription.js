@@ -13,10 +13,5 @@ export default {
       name: 'uk',
       type: 'blockContent',
     },
-    {
-      title: 'German',
-      name: 'de',
-      type: 'blockContent',
-    },
   ],
 };
